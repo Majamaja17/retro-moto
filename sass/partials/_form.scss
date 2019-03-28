@@ -1,0 +1,42 @@
+@import 'variables.scss';
+
+%__input {
+	resize: none;
+	outline: none;
+    border: none;
+    background-color: $main-darker;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px 10px 0;
+	text-transform: uppercase;
+}
+
+.form {
+	&__top {
+		@extend %__input;
+		width: 48%;
+		margin: 0 1.5% 2.5% 0;
+	}
+	&__top--last_item {
+		margin: 0 0 2.5% 1.5%;
+	}
+	&__bottom {
+		@extend %__input;
+		width: 100%;
+		height: 100px;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+	.form {
+		&__top {
+			@extend %__input;
+			width: 100%;
+			margin: 0;
+		}
+		&__top--last_item {
+			margin: 0;
+		}
+	}
+}

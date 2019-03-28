@@ -1,0 +1,18 @@
+.jumbotron {
+	background-image: url("../images/bg_5.jpg");
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    padding-top: 138px;
+	&__subtitle {
+		font-size: 28px;
+		line-height: 38px;
+		text-transform: uppercase;
+		color: $main-light;
+		&:last-of-type {
+			padding-bottom: 260px;
+		}
+	}
+}

@@ -1,0 +1,37 @@
+.info {
+	background-color: $main-darker;
+	&__container {
+		margin-top: 10px;
+	}
+	&__box {
+		width: 90%;
+		height: 300px;
+		margin: 10px auto 0;
+		padding: 5% 0;
+		display: block;
+		text-align: center;
+	}
+	&__img {
+		height: 140px;
+		padding-bottom: 10px;
+	}
+	&__btn {
+		width: 100%;
+		cursor: pointer;
+		border: none;
+		outline: none;
+		background-color: $black;
+		font-size: 18px;
+		text-align: center;
+		padding: 20px 0;
+		display: block;
+		margin: 20px auto 0;
+	}
+	&__link {
+		text-decoration: none;
+		text-transform: uppercase;
+		color: $main-light;
+		font-weight: bold;
+	}
+}
+

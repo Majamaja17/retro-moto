@@ -1,0 +1,42 @@
+%__text {
+    font-size: 18px;
+    line-height: 28px;
+    color: $main-light;
+}
+
+.contact {
+    &__subtitle {
+        @extend %__text;
+        margin-bottom: 30px;
+    }
+    &__info {
+        @extend %__text;
+        margin-bottom: 10px;
+    }
+    &__img {
+        @extend %__text;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .contact {
+        &__img {
+            margin: 0 10px 10px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contact {
+        &__img {
+            margin: 0 20px 20px 0;
+        }
+        &__subtitle {
+            font-size: 12px;
+        }
+        &__info {
+            font-size: 14px;
+        }
+    }
+}

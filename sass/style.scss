@@ -1,0 +1,18 @@
+// globals:
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import 'partials/_grid.scss';
+@import 'partials/_variables.scss';
+@import 'partials/_globals.scss';
+
+// components: 
+@import 'partials/_form.scss';
+@import 'partials/_headers.scss';
+@import 'partials/_buttons.scss';
+
+// sections
+@import 'partials/_nav.scss';
+@import 'partials/_jumbotron.scss';
+@import 'partials/_info.scss';
+@import 'partials/_about.scss';
+@import 'partials/_contact.scss';
+@import 'partials/_footer.scss';

@@ -1,0 +1,49 @@
+.about {
+	background-image: url("../images/about_bg.png");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+	&__box{
+		width: 50%;
+	}
+	&__content {
+		font-size: 18px;
+		line-height: 28px;
+        margin-bottom: 40px;
+        color: $white;
+        &:first-of-type {
+			font-size: 24px;
+			line-height: 30px;
+			color: $main-light;
+		}
+		&:last-of-type {
+			font-size: 24px;
+			line-height: 30px;
+			margin-bottom: 0;
+			color: $main-darker;
+		}
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.about {
+		&__box {
+			width: 40%;
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	
+	.about {
+		&__box {
+	    	width: 80%;
+		}
+		&__content {
+			font-size: 12px;
+		}
+	}
+}

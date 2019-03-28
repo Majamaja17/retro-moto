@@ -1,0 +1,34 @@
+h1, 
+h2,
+h3,
+h4 {
+	font-size: 36px;
+	padding-bottom: 60px;
+	color: $white;
+	line-height: 46px;
+}
+
+h1 {
+	font-size: 66px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.contact__subtitle--second {
+		padding-top: 80px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+	h1 {
+		font-size: 46px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+	.contact__subtitle--second {
+		padding-top: 40px;
+	}
+}
